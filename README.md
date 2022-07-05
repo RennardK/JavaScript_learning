@@ -1,2 +1,2 @@
-# JavaScript_learning
-This are trial learning code as I practise JS learning via freecodecamp.org
+# JavaScript_learning notetaking from freecodecamp.org
+This are trial learning codes as I practise JS learning via freecodecamp.org
