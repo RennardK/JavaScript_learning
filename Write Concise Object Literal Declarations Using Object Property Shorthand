@@ -1,0 +1,23 @@
+const trialObj = (height, age, name) => {
+    return{
+    myName: name,
+    age,
+    height
+}
+}
+console.log(trialObj(56, 12, "Rennard"))
+
+const {name, age: myAge} = trialObj(65, 21, "Dranner") // Outputs: { myName: 'Rennard', age: 12, height: 56 }
+console.log(myAge) //Outputs: 21
+
+// Writing Concise Object Literal Declarations Using Object Property Shorthand
+
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+  return {
+    name,
+    age,
+    gender
+  };
+  // Only change code above this line
+};
