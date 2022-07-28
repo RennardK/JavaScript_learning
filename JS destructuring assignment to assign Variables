@@ -1,0 +1,15 @@
+const obj = {
+    name: "reen",
+    Age: {
+        YOB: 1990,
+        "cAge": {
+            myAgy: 22
+        }
+    },
+    Place: "Machakos"
+}
+const {name: myName, Age: {cAge: YOB}} = obj
+// console.log(myName)
+console.log(YOB)
+
+//output {myAgy: 22}
